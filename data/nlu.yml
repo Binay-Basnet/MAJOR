@@ -1,0 +1,236 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: about_college
+  examples: |
+    - Tell me something about Pulchowk campus.
+    - what is pulchowk engineering campus?
+    - when was it established?
+    - about college
+
+- intent: admission
+  examples: |
+    - How to get admisssion in pulchowk campus?
+    - How to get in Pulchowk college?
+    - what do i need to do to get admission in pulchowk campus?
+    - admission cha?
+    - admission
+    - about admission
+    - How to get inside bachelor in Pulchowk Campus?
+    - what is admission procedure
+    - admsn
+    - admisssion
+    - what is the minimum percentage of getting admission in pulchowk
+    - what is the minimum percentage of getting admission in pulchowk
+    - what is the minimum number of getting admission in CSE
+    - i want admission in pulchowk
+    - admission is must in pulchowk
+    - admission chaiyo malai  yaha
+    - what is the precedure for admission
+    - how can I get admission
+    - admission in 
+    - ADMISSION
+    - admission cutoff
+    - can  I get admission   after 12
+    - direct admission details
+    - councelling  admission details
+    - how can i apply for admission 
+    - can you help me with admission
+    - could you please find me a link for admission
+    - ye admsiion ka k mahool xa
+    - admission fees
+    - admission for bE
+    - admission for MSC
+    - admission in CSE branch
+    - admission criteria in glbitm
+    - admission for my son
+    - admission for my daughter
+    - admission form link want
+    - need help in admission
+    - can you feed me with admission details
+    - need admission details for btech
+    - admission details want for btech cse
+    - how much you charge for admission
+    - admission milega kya
+    - I need admission in this college !!!
+    - only admission !
+    - admission please
+
+- intent: location
+  examples: |
+    - where is pulchowk engineering campus?
+    - In which area id pulchowk campus?
+    - How can I get to pulchowk campus?
+    - Is pulchowk campus within kathmandu valley?
+    - about location
+
+- intent: clubs
+  examples: |
+    - how many clubs are in pulchowk campus?
+    - Is there msuci club in pulchowk campus?
+    - about pulchowk campus club?
+    - What type of clubs are in Pulchowk Campus?
+    - tell me about clubs in pulhowk engineering campus?
+    - about clubs
+
+- intent: student union
+  examples: |
+    - Is there a student union in pulchowk campus?
+    - WHat is FSU?
+    - How does student union run in cmapus?
+    - Tell me about student union.
+    - what does fsu do?
+    - about clubs
+
+- intent: sports
+  examples: |
+    - what sports do they play in pulchowk campus?
+    - what sports ground is there in college?
+    - Do i get to play sports in campus?
+    - Who organizes sports in campus?
+    - Sports in Pulchowk campus.
+    - about sports 
+
+- intent: programs
+  examples: |
+    - what courses do you provide ?
+    - What are the programs offered?
+    - what are the programs offered?
+    - programs
+    - prgrams
+    - how many programs offered?
+    - programs offered?
+    - programs?
+    - how many programs
+    - programs kitne karaye jate hai iss college me
+    - how many programs do you have
+    - details about programs taught
+    - programs that has been offred
+    - programs kitne hai
+    - how many programs i can presue
+    - kon konse programs krwate ho aap log
+    - programs me enroll hone ka kya procedure hai
+    - programs programs
+    - programsprogramsprogramsprograms
+    - how many courses you provide
+    - how many courses do u have
+    - total no of of courses in glbitm
+    - all courses
+    - every course in glbitm
+    - GLBITM all programs
+    - GLBITM all courses
+    - kitne types k coursees krwate ho aap
+    - how many types of courses do you have
+    - course me enroll hona tha
+    - courses how many
+    - course course
+    - course ?
+    - details about every course
+    - all courses details wanted
+    - all courses detail
+    - how many courses you give
+    - kitne course hote h GLBITM me
+    - how many courses does GLBITM have
+    - GLBITM course
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+
+
+
+
+
+

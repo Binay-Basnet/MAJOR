@@ -1,0 +1,83 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+  - about_college
+  - admission
+  - location
+  - clubs
+  - student union
+  - sports
+  - programs
+  - inform_program
+  - out_of_scope
+
+responses:
+
+  utter_about_college:
+  - text: "Established as a constituent campus of Institute of Engineering(IOE) in 1972, it provided low to middle-level engineering manpower in the field such as civil, mechanical.
+            Its started its first bachelor course of civil engineering in 1984 AD and other programs of bachelorand masters were added."
+
+  utter_admission:
+  - text: "High school(+2) students who have chosen science and studied math in both 11 and 12 can give entrance exam for Bachelor  In Engineering."        
+
+  utter_location:
+  - text: "Pulchowk Engineering campus in located at Pulchowk, Lalitpur as you enter patan  dhoka road from kupondole you will see gates on either side of road."
+
+  utter_clubs:
+  - text: "Pulchowk Engineering campus have  lots of clubs from maths club to physics club, robotics club holds prestigae for being engineering workshop of campus,
+           Purba Samaj, GAP samaj, groups of political philosophical , music club,debate club, Speaker 2.0, "
+
+  utter_student_union:
+  - text: "Free student union is a powerful free student union where students form comittee through election and holds valid for 2 years.Although necessary the election barely
+          holds ecery 2 years."
+
+  utter_sports:
+  - text: "Pulchown campus is third largest consituent campus by area and houses cricket ground(previously used by Nepal Cricket Team), football ground, volleyball,
+          basketball, table tennis. Sports here in organized by students."
+
+  utter_ok:
+  - text : "ok what more so you want about Pulchowk Campus?"
+
+  utter_out_of_scope:
+  - text : "Well, Could figure it out. Revisit your request?"
+
+
+  utter_bachelor_program:
+  - text : "Bachelor in B.E. in computer, civil, chemical ,mecahnical, electronics, electrical , architecture , aerospace engineering.
+            http://pcampus.edu.np/admission/bachelor/"
+
+  utter_masters_program:
+  - text: " Masters Courses were introduced at Pulchowk Campus in 1996 (2053) with assistance from the government of Norway. Presently, 22 different master's programs are being offered at the Pulchowk Campus. 
+            http://pcampus.edu.np/programs-2/master-degree-programs/ Thank Yous"
+
+  utter_phd_program:
+  - text: "Here is something you can look to get more info https://ioe.edu.np/programs/post-graduate-ph-d/"
+
+
+  
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_anything_else:
+  - text: "Do you have any other queries?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

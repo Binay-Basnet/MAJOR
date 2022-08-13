@@ -1,0 +1,72 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: admission in campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission
+  - action: utter_admission
+  - action: utter_anything_else
+
+- story: about_campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - action: utter_anything_else
+
+- story: location
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: location
+  - action: utter_location
+  - action: utter_anything_else
+
+
+- story: clubs_in_campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: clubs
+  - action: utter_clubs
+  - action: utter_anything_else
+
+- story: student union in campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: student union
+  - action: utter_student_union
+  - action: utter_anything_else
+
+- story: play again
+  steps:
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_ok
+
+- story: sports in campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sports
+  - action: utter_sports
+  - action: utter_anything_else
+
+
+
+
+
+
+
