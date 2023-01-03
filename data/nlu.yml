@@ -1,236 +1,561 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - Hi, bot
+      - Hieee
+      - Hieeeeeeeeeeeee
+      - Hola
+      - I said, helllllloooooO!!!!
+      - Well hello there ;)
+      - What is up?
+      - Whats up
+      - Whats up my bot
+      - Whats up?
+      - ayyyy whaddup
+      - bonjour
+      - ey boss
+      - good evening
+      - good moring
+      - good morning
+      - greet
+      - greetings
+      - hai
+      - hallo
+      - hallo Gabby
+      - halloo
+      - halloooo
+      - halo
+      - halo Gabby
+      - heeey
+      - heelio
+      - hell9o
+      - hellio
+      - hello
+      - hello Gabby
+      - hello everybody
+      - hello friend
+      - hello hi
+      - hello is anybody there
+      - hello it is me again
+      - hello robot
+      - hello Gabby
+      - hello sweatheart
+      - hello sweet boy
+      - hello there
+      - hello world
+      - hello, my name is [Prashant Mathur](name)
+      - hello?
+      - hello]
+      - hellooo
+      - helloooo
+      - helo
+      - hey
+      - hey bot
+      - hey bot!
+      - hey dude
+      - hey hey
+      - hey let's talk
+      - hey rasa
+      - hey Gabby
+      - hey ther
+      - hey there
+      - hey there boy
+      - hey there..
+      - hey, let's talk
+      - hey, Gabby!
+      - heya
+      - heyho
+      - heyo
+      - hhola
+      - hi
+      - hi !
+      - hi Mister
+      - hi again
+      - hi can you speak ?
+      - hi folks
+      - hi friend
+      - hi friends
+      - hi hi
+      - hi i'm [Shrusty singh](name)
+      - hi im [shreya pratyusha](name)
+      - hi mrs rasa
+      - hi pal!
+      - hi Gabby
+      - hi there
+      - hi there it's me
+      - hi!
+      - hi.........................................................
+      - hi?
+      - hieee
+      - hii
+      - hiihihi
+      - hiii
+      - hlo
+      - hola
+      - howdy
+      - i am [Karen Mease](name)
+      - jojojo
+      - namaste
+      - namaskaar
+      - ji namaste
+      - shat shat naman
+      - NAMASTE
+      - jop
+      - konichiwa
+      - merhaba
+      - ola Gabby
+      - rasa hello
+      - salut
+      - sup
+      - wasssup
+      - wasssup!
+      - what up
+      - whats popping
+      - whats up
+      - yo
+      - yoo
+      - ssup?
+      - helleo
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - bye .
+      - bye :P
+      - bye bot
+      - bye bye
+      - bye bye bot
+      - bye for now
+      - bye udo
+      - bye was nice talking to you
+      - bye!
+      - byee
+      - catch you later
+      - ciao
+      - cya
+      - farewell
+      - good bye
+      - good bye rasa bot!
+      - good night
+      - goodbye
+      - goodbye.
+      - goodnight
+      - gotta go
+      - k byyye
+      - ok Bye
+      - ok bye
+      - ok, bye
+      - ok.bye
+      - see u later
+      - see ya
+      - see you
+      - see you . bye
+      - take care
+      - then bye
+      - tlak to you later
+      - toodle-oo
+      - Exit
+      - Close this talk
+      - byr
+      - nikli
+      - bye baby
+      - bye babu
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - I accept
+      
+      
+       
+    
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - I don't want to
+      - I don't want to give it to you
+      - I don't want to say
+      - I dont want to tell
+      - I'm not giving you my email address
+      - I'm not going to give it to you
+      - NEIN
+      - NO
+      - NO DON"T WANT THIS!
+      - Nah
+      - Neither
+      - Never
+      - Nevermind
+      - No
+      - No thank you
+      - No, not really.
+      - No, thank you
+      - No.
+      - Nopes
+      - Not really
+      - absolutely not
+      
+    
+      - decline
+      - definitely not
+      - deny
+      - i decline
+      - i don not like this
+      - i don't think so
+      - i don't want either of those
+      - i don't want to
+      - i don't want to give you my email
+      - i dont want to
+      - i dont want to accept :P lol
+      - i guess it means - no
+      - i'm afraid not
+      - i'm not sure
+      - it is going pretty badly
+      - it sucks
+      - it sux
+      - n
+      - na
+      - nah
+      - nah I'm good
+      - nah not for me
+      - nah, first time
+      - nah, i'm good
+      - nehi
+      - nein
+      - neither
+      - never
+      - never mind
+      - no
+      - no :(
+      - no I dont want
+      - no I haven't decided yet if I want to sign up
+      - no and no again
+    
+      - no bots at all
+      - no go
+      - no i can't
+      - no i don't accept
+      - no i dont want to
+      - no i dont want to accept :P lol
+      - no i won't
+      - no ma'am
+      - no sir
+      - no sorry
+      - no thank s
+      - no thank you
+      - no thanks
+      - no way
+      - no you did it wrong
+      - no!!!!
+      - no, i hate it
+      - no, my frst time
+      - no, thank you
+      - no, thanks
+      - no, thankyou
+      - no. u r idiot
+      - non
+      - noooooooooo
+      - noooooooooooooooooooooooooooooooooooooooo
+      - nop
+      - nope
+      - nope!
+      - nope. i am good
+      - not going well at all
+      - not really
+      - not right now
+      - not yet
+      - nö
+      - sorry not right now
+      - still dont want to tell
+      - thanks but no thanks
+      - this sucks
+      - very bad
+      - I do not need help installing
+      - I don't wanna tell the name of my college
+      - no stop
+      - stop it, i do not care!!!
+      - none of them
+      - I don't agree
+  
+ - intent: thank 
+   examples: |
+    - Cool. Thanks
+    - Great, thanks
+    - Thank you
+    - Thank you Gabby
+    - Thank you so much
+    - Thank's!
+    - Thanks
+    - Thanks bot
+    - Thanks for that
+    - Thanks!
+    - amazing, thanks
+    - cheers
+    - cheers bro
+    - cool thank you
+    - cool thanks
+    - cool, thanks
+    - danke
+    - great thanks
+    - ok thanks
+    - ok thanks Gabby
+    - ok thanks!
+    - perfect thank you
+    - thank u
+    - thank you
+    - thank you anyways
+    - thanks
+    - thanks a bunch for everything
+    - thanks a lot
+    - thanks a bunch for everything
+    - thanks a lot
+    - thanks for forum link, I'll check it out
+    - thanks for the help
+    - thanks this is great news
+    - thanks you
+    - thanks!
+    - thankyou
+    - thnks
+    - thx
+    - yes thanks
+    - thanks for your information
+    - thanks f
+    - dhanyavaad
+    - shukriya
+    - gracious
+    
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+      - i will leave
+      - Although I understand your still in development, I feel a little bit disappointed.
+      - Surely you're not so smart lik i thought
+      - iam not feeling good
+      - not good
+      - Thats so rude
+      - sadly
+      - That tool here isnt good
+      - boring
+    
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
 
+  - intent: about_college
+    examples: |
+      - Tell me something about Pulchowk campus.
+      - what is pulchowk engineering campus?
+      - when was it established?
+      - about college
 
-- intent: about_college
-  examples: |
-    - Tell me something about Pulchowk campus.
-    - what is pulchowk engineering campus?
-    - when was it established?
-    - about college
+  - intent: out_of_scope
+    examples: |
+      - I want to order food
+      - What is 2 + 2?
+      - Who's the US President?
 
-- intent: admission
-  examples: |
-    - How to get admisssion in pulchowk campus?
-    - How to get in Pulchowk college?
-    - what do i need to do to get admission in pulchowk campus?
-    - admission cha?
-    - admission
-    - about admission
-    - How to get inside bachelor in Pulchowk Campus?
-    - what is admission procedure
-    - admsn
-    - admisssion
-    - what is the minimum percentage of getting admission in pulchowk
-    - what is the minimum percentage of getting admission in pulchowk
-    - what is the minimum number of getting admission in CSE
-    - i want admission in pulchowk
-    - admission is must in pulchowk
-    - admission chaiyo malai  yaha
-    - what is the precedure for admission
-    - how can I get admission
-    - admission in 
-    - ADMISSION
-    - admission cutoff
-    - can  I get admission   after 12
-    - direct admission details
-    - councelling  admission details
-    - how can i apply for admission 
-    - can you help me with admission
-    - could you please find me a link for admission
-    - ye admsiion ka k mahool xa
-    - admission fees
-    - admission for bE
-    - admission for MSC
-    - admission in CSE branch
-    - admission criteria in glbitm
-    - admission for my son
-    - admission for my daughter
-    - admission form link want
-    - need help in admission
-    - can you feed me with admission details
-    - need admission details for btech
-    - admission details want for btech cse
-    - how much you charge for admission
-    - admission milega kya
-    - I need admission in this college !!!
-    - only admission !
-    - admission please
+  - intent: admission
+    examples: |
+      - How to get admisssion in pulchowk campus?
+      - How to get in Pulchowk college?
+      - what do i need to do to get admission in pulchowk campus?
+      - admission cha?
+      - admission
+      - about admission
+      - How to get inside bachelor in Pulchowk Campus?
+      - what is admission procedure
+      - admsn
+      - admisssion
+      - what is the minimum percentage of getting admission in pulchowk
+      - what is the minimum percentage of getting admission in pulchowk
+      - what is the minimum number of getting admission in CSE
+      - i want admission in pulchowk
+      - admission is must in pulchowk
+      - admission chaiyo malai  yaha
+      - what is the precedure for admission
+      - how can I get admission
+      - admission in 
+      - ADMISSION
+      - admission cutoff
+      - can  I get admission   after 12
+      - direct admission details
+      - councelling  admission details
+      - how can i apply for admission 
+      - can you help me with admission
+      - could you please find me a link for admission
+      - ye admsiion ka k mahool xa
+      - admission fees
+      - admission for bE
+      - admission for MSC
+      - admission in CSE branch
+      - admission criteria in glbitm
+      - admission for my son
+      - admission for my daughter
+      - admission form link want
+      - need help in admission
+      - can you feed me with admission details
+      - need admission details for btech
+      - admission details want for btech cse
+      - how much you charge for admission
+      - admission milega kya
+      - I need admission in this college !!!
+      - only admission !
+      - admission please
 
-- intent: location
-  examples: |
-    - where is pulchowk engineering campus?
-    - In which area id pulchowk campus?
-    - How can I get to pulchowk campus?
-    - Is pulchowk campus within kathmandu valley?
-    - about location
+  - intent: location
+    examples: |
+      - where is pulchowk engineering campus?
+      - In which area id pulchowk campus?
+      - How can I get to pulchowk campus?
+      - Is pulchowk campus within kathmandu valley?
+      - about location
 
-- intent: clubs
-  examples: |
-    - how many clubs are in pulchowk campus?
-    - Is there msuci club in pulchowk campus?
-    - about pulchowk campus club?
-    - What type of clubs are in Pulchowk Campus?
-    - tell me about clubs in pulhowk engineering campus?
-    - about clubs
+  - intent: clubs
+    examples: |
+      - how many clubs are in pulchowk campus?
+      - Is there msuci club in pulchowk campus?
+      - about pulchowk campus club?
+      - What type of clubs are in Pulchowk Campus?
+      - tell me about clubs in pulhowk engineering campus?
+      - about clubs
 
-- intent: student union
-  examples: |
-    - Is there a student union in pulchowk campus?
-    - WHat is FSU?
-    - How does student union run in cmapus?
-    - Tell me about student union.
-    - what does fsu do?
-    - about clubs
+  - intent: student union
+    examples: |
+      - Is there a student union in pulchowk campus?
+      - WHat is FSU?
+      - How does student union run in cmapus?
+      - Tell me about student union.
+      - what does fsu do?
+      - about clubs
 
-- intent: sports
-  examples: |
-    - what sports do they play in pulchowk campus?
-    - what sports ground is there in college?
-    - Do i get to play sports in campus?
-    - Who organizes sports in campus?
-    - Sports in Pulchowk campus.
-    - about sports 
+  - intent: sports
+    examples: |
+      - what sports do they play in pulchowk campus?
+      - what sports ground is there in college?
+      - Do i get to play sports in campus?
+      - Who organizes sports in campus?
+      - Sports in Pulchowk campus.
+      - about sports
 
-- intent: programs
-  examples: |
-    - what courses do you provide ?
-    - What are the programs offered?
-    - what are the programs offered?
-    - programs
-    - prgrams
-    - how many programs offered?
-    - programs offered?
-    - programs?
-    - how many programs
-    - programs kitne karaye jate hai iss college me
-    - how many programs do you have
-    - details about programs taught
-    - programs that has been offred
-    - programs kitne hai
-    - how many programs i can presue
-    - kon konse programs krwate ho aap log
-    - programs me enroll hone ka kya procedure hai
-    - programs programs
-    - programsprogramsprogramsprograms
-    - how many courses you provide
-    - how many courses do u have
-    - total no of of courses in glbitm
-    - all courses
-    - every course in glbitm
-    - GLBITM all programs
-    - GLBITM all courses
-    - kitne types k coursees krwate ho aap
-    - how many types of courses do you have
-    - course me enroll hona tha
-    - courses how many
-    - course course
-    - course ?
-    - details about every course
-    - all courses details wanted
-    - all courses detail
-    - how many courses you give
-    - kitne course hote h GLBITM me
-    - how many courses does GLBITM have
-    - GLBITM course
+  - intent: programs
+    examples: |
+      - what courses do you provide ?
+      - What are the programs offered?
+      - what are the programs offered?
+      - programs
+      - prgrams
+      - how many programs offered?
+      - programs offered?
+      - programs?
+      - how many programs
+      - how many programs do you have
+      - details about programs taught
+      - programs that has been offred
+      - programs kati xa
+      - how many programs i can presue
+      - kon konse programs krwate ho aap log
+      - programs ma enroll hone k procedure xa
+      - programs programs
+      - programsprogramsprogramsprograms
+      - how many courses you provide
+      - how many courses do u have
+      - total no of of courses in pulchowk
+      - every course in glbitm
+      - Pulchowk all programs
+      - Pulchowk all courses
+      - kati types ko coursees 
+      - how many types of courses do you have
+      - course ma enroll huna thiyo
+      - courses how many
+      - course course
+      - course ?
+      - details about every course
+      - all courses details wanted
+      - all courses detail
+      - how many courses you give
+      - kati course xa Pulchowk campus mah
+      - how many courses does Pulchowk campushave
+      - Pulchowk campus course
 
-- intent: out_of_scope
-  examples: |
-    - I want to order food
-    - What is 2 + 2?
-    - Who's the US President?
+  # - intent: inform_program
+  #   examples: |
+  #     - Tell me about [master](level) progrma in pulchowk.
+  #     - What programs do they offer in [PHD](level)?
+  #     - What do they offer in [Bachelor](level)
+  #     - [Masters](level) program
+  #     - [P.H.D.](level) program in pulchowk campus
+  #     - bachlor(level) ma kk pada huxna
+  #     - pulchowk [bachelors](level)
 
-
-
-
-
-
+  

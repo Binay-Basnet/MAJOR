@@ -40,7 +40,7 @@ responses:
           holds ecery 2 years."
 
   utter_sports:
-  - text: "Pulchown campus is third largest consituent campus by area and houses cricket ground(previously used by Nepal Cricket Team), football ground, volleyball,
+  - text: "Pulchown campus  houses cricket ground(previously used by Nepal Cricket Team), football ground, volleyball,
           basketball, table tennis. Sports here in organized by students."
 
   utter_ok:
@@ -48,15 +48,21 @@ responses:
 
   utter_out_of_scope:
   - text : "Well, Could figure it out. Revisit your request?"
+  - text: "Sorry, I didn't get that 🤷. Could you please rephrase?"
+  - text: " I didn't understand, could you rephrase that?"
+  - text: "I'm sorry, but I didn't understand you. Could you please rephrase what you just said?"
+  - text: "I'm afraid I didn't get what you just said. Could you rephrase that?"
+  - text: "I didn't quite get that, could you rephrase your message?"
+  - text: "Could you rephrase your message? I didn't get it, I'm sorry."
 
 
   utter_bachelor_program:
-  - text : "Bachelor in B.E. in computer, civil, chemical ,mecahnical, electronics, electrical , architecture , aerospace engineering.
+  - text : "Bachelor in B.E. in computer(96 seats), civil(192 seats), chemical(48 seats) ,mecahnical(48 seats), electronics(48 seats), electrical(96 seats) , architecture(48 seats) , aerospace engineeringv.
             http://pcampus.edu.np/admission/bachelor/"
 
   utter_masters_program:
   - text: " Masters Courses were introduced at Pulchowk Campus in 1996 (2053) with assistance from the government of Norway. Presently, 22 different master's programs are being offered at the Pulchowk Campus. 
-            http://pcampus.edu.np/programs-2/master-degree-programs/ Thank Yous"
+            http://pcampus.edu.np/programs-2/master-degree-programs/ Thank You"
 
   utter_phd_program:
   - text: "Here is something you can look to get more info https://ioe.edu.np/programs/post-graduate-ph-d/"

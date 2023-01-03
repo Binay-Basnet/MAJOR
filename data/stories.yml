@@ -50,7 +50,7 @@ stories:
   - action: utter_student_union
   - action: utter_anything_else
 
-- story: play again
+- story: ask again
   steps:
   - action: utter_anything_else
   - intent: affirm
